@@ -7,7 +7,7 @@ import distro
 
 from fsociety.__version__ import __version__
 
-CURRENT_PLATFORM = platform
+CURRENT_PLATFORM = "linux"
 if platform in ["win32", "cygwin"]:
     CURRENT_PLATFORM = "windows"
 elif platform.startswith("darwin"):
