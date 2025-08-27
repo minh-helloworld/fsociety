@@ -21,7 +21,7 @@ GITHUB_PATH = "fsociety-team/fsociety"
 
 DEFAULT_CONFIG = {
     "version": __version__,
-    "agreement": "false",
+    "agreement": "true",
     "ssh_clone": "false",
     "os": CURRENT_PLATFORM,
     "host_file": "hosts.txt",
